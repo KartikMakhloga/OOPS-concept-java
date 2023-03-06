@@ -48,8 +48,8 @@ class A {
         this.name = name;
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        System.out.println("Object is destroyed");
-    }
+//    @Override
+//    protected void finalize() throws Throwable {
+//        System.out.println("Object is destroyed");
+//    }
 }
